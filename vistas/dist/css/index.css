@@ -1,0 +1,41 @@
+.btn-primary, .wizard > .actions a {
+    color: #fff !important;
+    background-color: #4B49AC !important;
+    border-color: #4B49AC !important;
+}
+
+.auth form .form-group .form-control, .auth form .form-group .asColorPicker-input, .auth form .form-group .dataTables_wrapper select, .dataTables_wrapper .auth form .form-group select, .auth form .form-group .jsgrid .jsgrid-table .jsgrid-filter-row input[type=text], .jsgrid .jsgrid-table .jsgrid-filter-row .auth form .form-group input[type=text], .auth form .form-group .jsgrid .jsgrid-table .jsgrid-filter-row select, .jsgrid .jsgrid-table .jsgrid-filter-row .auth form .form-group select, .auth form .form-group .jsgrid .jsgrid-table .jsgrid-filter-row input[type=number], .jsgrid .jsgrid-table .jsgrid-filter-row .auth form .form-group input[type=number], .auth form .form-group .select2-container--default .select2-selection--single, .select2-container--default .auth form .form-group .select2-selection--single, .auth form .form-group .select2-container--default .select2-selection--single .select2-search__field, .select2-container--default .select2-selection--single .auth form .form-group .select2-search__field, .auth form .form-group .typeahead, .auth form .form-group .tt-query, .auth form .form-group .tt-hint {
+    background: transparent !important;
+    font-size: .9375rem !important;
+    border-radius: 10px !important;
+    padding: 10px !important;
+    height: 40px !important;
+}
+
+
+.sidebar .nav .nav-item .nav-link .menu-title {
+    display: inline-block !important;
+    font-size: 15px !important;
+    line-height: 1 !important;
+    vertical-align: middle !important;
+}
+
+.sidebar .nav.sub-menu .nav-item .nav-link {
+    color: #fff;
+    padding: 0.7rem 1rem;
+    position: relative;
+    font-size: 15px ;
+    line-height: 1;
+    height: auto;
+    border-top: 0;
+}
+
+/*hide position_btn when do 985px position_btn*/
+
+@media (min-width: 985px) {
+    .position_btn {
+        display: none;
+    }
+    
+}
+
