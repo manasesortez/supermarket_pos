@@ -1,2 +1,2 @@
-# Farmacia-WebApp
-Farmacia el pueblo 2 webapp
+# Supermarket-WebApp
+Tienda Supermarket App
